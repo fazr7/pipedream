@@ -54,7 +54,7 @@ export default {
         squadId: this.squadId,
         phoneNumberId: this.phoneNumberId,
         name: this.name,
-        customerId: this.customerId,
+        Id: this.customerId,
       },
     });
     $.export("$summary", `Conversation created with ID ${response.id}`);
